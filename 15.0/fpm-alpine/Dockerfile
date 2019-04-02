@@ -88,9 +88,6 @@ RUN { \
     chown -R www-data:root /var/www; \
     chmod -R g=u /var/www
 
-VOLUME /var/www/html
-
-
 ENV NEXTCLOUD_VERSION 15.0.5
 
 RUN set -ex; \
